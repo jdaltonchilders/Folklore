@@ -4,24 +4,24 @@
 - Map Design (Graphics: 
   - Team Member: Dalton Childers
 - Character Design/Item Design
-  - Team Member: 
+  - Team Member: Joe
 - Combat System
   - Team Memeber: 
 - HUD
-  - Team Member: 
+  - Team Member: Patrick
 - Sound Design
-  - Team Member: 
+  - Team Member: Patrick
 - Story
-  - Team Member: 
+  - Team Member: Everyone
   
 - Other:
   - Implement a class system
-    - Team Member: Steve
+    - Team Member: Steve (Mage, Brawler), Patrick (Swordsman, Shooter)
     - Brawler
     - Mage
-    - Swordsman
+    - Swordsman 
     - Shooter
   - Design other buildings
     - Team Member: 
   - Be able to save certain zombies (feature)
-    - Team Member: 
+    - Team Member: Steve, Patrick
