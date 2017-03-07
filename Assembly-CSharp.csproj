@@ -46,13 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\Movement\movement.cs" />
+     <Compile Include="Assets\Character\Sally\Script\SallyManager.cs" />
      <Compile Include="Assets\Character\Sally\Script\fireBallController.cs" />
      <Compile Include="Assets\Character\Sally\Script\fireBallDestroy.cs" />
      <Compile Include="Assets\lightningBoltDestroy.cs" />
-     <Compile Include="Assets\movement.cs" />
      <Compile Include="Assets\skeletonAI.cs" />
-     <Compile Include="Assets\skeletonAnimation.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
@@ -72,10 +70,6 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E39CF01E-4B82-0F2D-C71F-F6B28E7E3CA3}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
