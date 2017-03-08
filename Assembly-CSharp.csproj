@@ -49,9 +49,39 @@
      <Compile Include="Assets\Character\Sally\Script\SallyManager.cs" />
      <Compile Include="Assets\Character\Sally\Script\fireBallController.cs" />
      <Compile Include="Assets\Character\Sally\Script\fireBallDestroy.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\Layer.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ObjectLayer.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\PolygonObject.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\PolylineObject.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\RectangleObject.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileLayer.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
      <Compile Include="Assets\lightningBoltDestroy.cs" />
      <Compile Include="Assets\skeletonAI.cs" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
+     <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\dungeon.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDiffuseDepth.shader" />
+     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\village.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
+     <None Include="Assets\Tiled2Unity\License.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -70,6 +100,10 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E39CF01E-4B82-0F2D-C71F-F6B28E7E3CA3}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
