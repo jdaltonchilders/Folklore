@@ -46,17 +46,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Characters\Sally\Script\AutoFade.cs" />
-     <Compile Include="Assets\Characters\Sally\Script\SallyManager.cs" />
-     <Compile Include="Assets\Characters\Sally\Script\fireBallController.cs" />
-     <Compile Include="Assets\Characters\Sally\Script\fireBallDestroy.cs" />
-     <Compile Include="Assets\Characters\Skeleton Boss\Scripts\bossAI.cs" />
-     <Compile Include="Assets\Characters\Skeleton Boss\Scripts\bossAnimation.cs" />
-     <Compile Include="Assets\Characters\Skeleton Boss\Scripts\bossSpell.cs" />
-     <Compile Include="Assets\Characters\Skeleton Boss\Scripts\bossSpellGO.cs" />
-     <Compile Include="Assets\Characters\Skeleton\Scripts\enemySpell.cs" />
-     <Compile Include="Assets\Characters\Skeleton\Scripts\enemySpellGO.cs" />
-     <Compile Include="Assets\Characters\Skeleton\Scripts\skeletonAnimation.cs" />
+     <Compile Include="Assets\Character\Sally\Script\AutoFade.cs" />
+     <Compile Include="Assets\Character\Sally\Script\SallyManager.cs" />
+     <Compile Include="Assets\Character\Sally\Script\fireBallController.cs" />
+     <Compile Include="Assets\Character\Sally\Script\fireBallDestroy.cs" />
+     <Compile Include="Assets\Character\Skeleton Boss\Scripts\bossAI.cs" />
+     <Compile Include="Assets\Character\Skeleton Boss\Scripts\bossAnimation.cs" />
+     <Compile Include="Assets\Character\Skeleton Boss\Scripts\bossSpell.cs" />
+     <Compile Include="Assets\Character\Skeleton Boss\Scripts\bossSpellGO.cs" />
+     <Compile Include="Assets\Character\Skeleton\Scripts\enemySpell.cs" />
+     <Compile Include="Assets\Character\Skeleton\Scripts\enemySpellGO.cs" />
+     <Compile Include="Assets\Character\Skeleton\Scripts\skeletonAnimation.cs" />
+     <Compile Include="Assets\ExplosionDestroy.cs" />
      <Compile Include="Assets\Scripts\LoadNewArea.cs" />
      <Compile Include="Assets\Scripts\PlayerSpawnPoint.cs" />
      <Compile Include="Assets\Scripts\controls.cs" />
