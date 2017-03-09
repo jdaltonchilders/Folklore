@@ -49,6 +49,8 @@
      <Compile Include="Assets\Character\Sally\Script\SallyManager.cs" />
      <Compile Include="Assets\Character\Sally\Script\fireBallController.cs" />
      <Compile Include="Assets\Character\Sally\Script\fireBallDestroy.cs" />
+     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
+     <Compile Include="Assets\Scripts\PlayerSpawnPoint.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\Layer.cs" />
